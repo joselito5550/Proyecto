@@ -37,6 +37,7 @@ public class MainActivity extends ActionBarActivity {
                 dialogPhoto();
             }
         });
+        //sacar notificaciones
         Toast.makeText(this, "Hola Jose", Toast.LENGTH_LONG).show();
     }
 
