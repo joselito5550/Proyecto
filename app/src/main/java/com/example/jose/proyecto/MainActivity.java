@@ -18,6 +18,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.BufferedInputStream;
 import java.io.FileNotFoundException;
@@ -36,6 +37,7 @@ public class MainActivity extends ActionBarActivity {
                 dialogPhoto();
             }
         });
+        Toast.makeText(this, "Hola Jose", Toast.LENGTH_LONG).show();
     }
 
     private int SELECT_IMAGE = 237487;
